@@ -31,8 +31,8 @@ jobs:
         with:
           python-version: "3.x"
           architecture: "x64"
-#       - run: python ./.github/actions/checkin/universal.py
-      - run: python ./renewal.py
+      - run: python ./.github/actions/checkin/universal.py
+#       - run: python ./renewal.py
 
       - name: timestamp
         run: date
